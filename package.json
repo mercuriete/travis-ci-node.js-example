@@ -1,23 +1,14 @@
 {
-  "author": "Maciej Małecki <maciej.malecki@notimplemented.org>",
-  "name": "travis-ci-node.js-example",
-  "description": "An example node.js project that uses vows and travis-ci.org for continuous integration",
-  "version": "0.0.0",
-  "homepage": "http://travis-ci.org/#!/travis-ci/travis-ci-node.js-example",
-  "main": "./lib/serious-calculations",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/travis-ci/travis-ci-node.js-example.git"
-  },
+  "author": "mercuriete <mercuriete@lolaso.lol>",
+  "name": "javascript-stupid-null-logic",
+  "description": "An example node.js project that uses vows and travis to show stupidity",
+  "version": "0.0.1",
+  "main": "./lib/greater-or-equal-than.js",
   "scripts": {
-    "test": "vows --spec"
-  },
-  "engines": {
-    "node": ">= 0.4"
+    "test": "vows test/* --spec"
   },
   "dependencies": {},
   "devDependencies": {
-    "vows": "0.6.x"
+    "vows": "0.8.1"
   }
 }
-
