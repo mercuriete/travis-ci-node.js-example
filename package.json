@@ -9,6 +9,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "vows": "0.8.1"
+    "vows": "0.8.3"
   }
 }
